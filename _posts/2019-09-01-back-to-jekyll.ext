@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Back to Jekyll!"
-date:   2019-30-01 01:31:00 +0000
+date:   2019-10-01 01:31:00 +0000
 categories: jekyll update
 ---
 After digging some infotmation around I just found some useful information about basic commands on git in this website: [git - the simple guide][git-guide]
@@ -17,5 +17,7 @@ I started to investigate how to give the website a goodloking presentation witho
 I think I will push this new entry and description to the repo and give up for today, it's okey for a 30min resarch task.
 
 It looks like I broke something due to this post name, I wrote 2019-09-01-back-to-jekyll.markdown and I will try 2019-10-01-back-to-jekyll.ext
+
+It looks like it's about the file date which was 2019-30-01 ...
 
 [git-guide]: http://rogerdudler.github.io/git-guide/
