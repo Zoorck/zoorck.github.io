@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Let's make it look better now"
-date:   2019-10-05 02:31:00 +0000
+date:   2019-05-10 02:31:00 +0000
 categories: jekyll update
 ---
 
@@ -29,10 +29,9 @@ defaults:
       image: true
 ```
 
-Aaaaaaand...
+Aaaaaaand... not working this way.
 
-![Branches image][logo]
-
+<img src="{{site.baseurl}}/assets/img/newlook_branch.jpeg" alt="Branches image">
 
 Well, Now I've tried to insert and image but I'm not being able to show it on localhost, maybe it's because I've been working on newlook branch and not in master branch. I'll marge it and see what happens.
 
@@ -42,4 +41,4 @@ See you soon.
 
 [cayman]: https://github.com/pages-themes/cayman
 [sublime-merge]: https://www.sublimemerge.com/
-[logo]: /assets/img/newlook_branch.jpeg "Logo Title Text 2"
+

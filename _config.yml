@@ -22,8 +22,3 @@ plugins:
   - jekyll-feed
 markdown: kramdown
 
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
