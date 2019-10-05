@@ -15,7 +15,23 @@ After selecting [cayman][cayman] as my web theme, I'll try to open a branch, cre
 
 I think I created a branch called newlook and after that I started a project with default jekyll commands: jekyll new blog
 
-After that I just coppied all the files to the old folder to be able to run the website in localhost. And it Worked! (almost) I deleted a file and there is a post not being displayed. I'll try to push it to the GitHub repo.
+After that I just coppied all the files to the old folder to be able to run the website in localhost. And it Worked! (almost) I deleted a file and there is a post not being displayed. I'll try to push it to the GitHub repo. Done!
+
+Now I'm gonna try to attach an image denmostrating it, first, let's include this asset in assets/img.
+
+Now the config file: COPY&PASTE time
+
+```
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+```
+
+Aaaaaaand...
+
+{{ neewlook_branch.png }}
 
 [cayman]: https://github.com/pages-themes/cayman
 [sublime-merge]: https://www.sublimemerge.com/
