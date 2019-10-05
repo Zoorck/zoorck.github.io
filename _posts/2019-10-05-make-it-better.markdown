@@ -15,25 +15,28 @@ After selecting [cayman][cayman] as my web theme, I'll try to open a branch, cre
 
 I think I created a branch called newlook and after that I started a project with default jekyll commands: jekyll new blog
 
-After that I just coppied all the files to the old folder to be able to run the website in localhost. And it Worked! (almost) I deleted a file and there is a post not being displayed. I'll try to push it to the GitHub repo. Done!
+After that I just copied all the files to the old folder to be able to run the website in localhost. And it Worked! (almost) I deleted a file and there is a post not being displayed. I'll try to push it to the GitHub repo. Done!
 
-Now I'm gonna try to attach an image denmostrating it, first, let's include this asset in assets/img.
+Now I'm gonna try to attach an image demonstrating it, first, let's include this asset in assets/img.
 
 Now the config file: COPY&PASTE time
 
 ```
 defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 ```
 
 Aaaaaaand...
 
 ![Branches image](/assets/img/newlook_branch.jpeg)
 
-Well, Now i've tryied to insert and image but I'm not being able to show it on localhost, maybe it's because I've been working on newlook branch and not in master branch. I'll marge it and see what happens.
+Well, Now I've tried to insert and image but I'm not being able to show it on localhost, maybe it's because I've been working on newlook branch and not in master branch. I'll marge it and see what happens.
 
+Nothing is working as expected so I think I'll just leave it here for now.
+
+See you soon.
 [cayman]: https://github.com/pages-themes/cayman
 [sublime-merge]: https://www.sublimemerge.com/
