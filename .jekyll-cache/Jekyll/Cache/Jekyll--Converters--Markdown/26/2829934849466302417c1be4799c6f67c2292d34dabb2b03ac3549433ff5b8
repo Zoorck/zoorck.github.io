@@ -1,0 +1,8 @@
+I"<p>After reading <a href="https://github.com/pages-themes/cayman">Creating and Hosting a Personal Site on GitHub</a> i just understood some more about jeckyll but the truth is I’m still not sure on how URLs work in jekyll + GitHub pages and why my assets are not properly displayed in my blog, so let’s try on some more research.</p>
+
+<p><img src="/assets/screenshot.jpeg" alt="My helpful screenshot" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>defaults:
+</code></pre></div></div>
+
+:ET
