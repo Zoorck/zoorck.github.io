@@ -13,5 +13,9 @@ Wait! I just installed [Sublime Merge][sublime-merge] to my text editor and it a
 
 After selecting [cayman][cayman] as my web theme, I'll try to open a branch, create the blog following cayman instructions and we'll see what we can then recycle from the current blog. (and how we marge with the master branch)
 
+I think I created a branch called newlook and after that I started a project with default jekyll commands: jekyll new blog
+
+After that I just coppied all the files to the old folder to be able to run the website in localhost. And it Worked! (almost) I deleted a file and there is a post not being displayed. I'll try to push it to the GitHub repo.
+
 [cayman]: https://github.com/pages-themes/cayman
 [sublime-merge]: https://www.sublimemerge.com/

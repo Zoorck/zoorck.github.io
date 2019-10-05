@@ -5,8 +5,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-#theme: jekyll-theme-cayman
-
 # Site settings
 title: Zoorck's web
 email: mserra95@gmail.com
@@ -19,4 +17,7 @@ twitter_username: empty
 github_username:  Zoorck
 
 # Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 markdown: kramdown
