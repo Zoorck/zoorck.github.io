@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Start with a guide for beginers"
-date:   2019-10-05 17:31:00 +0000
+date:   2019-10-05 14:31:00 +0100
 categories: jekyll update
 ---
 
@@ -13,7 +13,9 @@ I found this image and it looks like we can store images over the internet but n
 
 At least, I'm not so frustrated now. Easy guide then following [this video](https://www.youtube.com/watch?v=afFb_DcBBdA)
 
-Why it's now working in the GitHub Pages repo now?
+Why it's now working in the GitHub Pages repo now? Date and time issues, I'm not sure to have the right configuration both in my local system and GitHub atomated datetime.
+
+I may want to find a way to fix this adding a +1h to all posts. Yes, thats it, I'm in Spain so...
 
 ```
 defaults:
