@@ -31,12 +31,15 @@ defaults:
 
 Aaaaaaand...
 
-![Branches image](/assets/img/newlook_branch.jpeg)
+![Branches image][logo]
+
 
 Well, Now I've tried to insert and image but I'm not being able to show it on localhost, maybe it's because I've been working on newlook branch and not in master branch. I'll marge it and see what happens.
 
 Nothing is working as expected so I think I'll just leave it here for now.
 
 See you soon.
+
 [cayman]: https://github.com/pages-themes/cayman
 [sublime-merge]: https://www.sublimemerge.com/
+[logo]: /assets/img/newlook_branch.jpeg "Logo Title Text 2"
