@@ -31,7 +31,7 @@ defaults:
 
 Aaaaaaand...
 
-{{ neewlook_branch.png }}
+![image](/assets/images/your-image.jpg)
 
 Well, Now i've tryied to insert and image but I'm not being able to show it on localhost, maybe it's because I've been working on newlook branch and not in master branch. I'll marge it and see what happens.
 
