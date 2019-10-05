@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Let's make it look better now"
-date:   2019-05-10 02:31:00 +0000
+title:  "Let's make better posts"
+date:   2019-10-05 02:31:00 +0000
 categories: jekyll update
 ---
 
