@@ -4,23 +4,22 @@ title:  "Back to Jekyll!"
 date:   2019-10-01 01:31:00 +0000
 categories: jekyll update
 ---
-After digging some infotmation around I just found some useful information about basic commands on git in this website: [git - the simple guide][git-guide]
+After digging some information around I just found some useful information about basic commands on git in this website: [git - the simple guide][git-guide]
 
-After being able to understand that there is no need to authenticat with user and pass to pull a public repo (my own repo) I was able to store it in my local
-labtop.
+After being able to understand that there is no need to authenticate with user and pass to pull a public repo (my own repo) I was able to store it in my local
+laptop.
 
-Back to what was my main goal (achieve a first commit and push it into the main branch on GitHub) I decided to modify my personal data for this webpage, and 
-surisingly I was able to remember my GitHub pass :D
+Back to what was my main goal (achieve a first commit and push it into the main branch on GitHub) I decided to modify my personal data for this web page, and 
+surprisingly I was able to remember my GitHub pass :D
 
-I started to investigate how to give the website a goodloking presentation without much succes on how to migrate it to a new theme. Maybe a quest for tomorrow.
+I started to investigate how to give the website a good-looking presentation without much success on how to migrate it to a new theme. Maybe a quest for tomorrow.
 
-I think I will push this new entry and description to the repo and give up for today, it's okey for a 30min resarch task.
+I think I will push this new entry and description to the repo and give up for today, it's okey for a 30min research task. 
 
 It looks like I broke something due to this post name, I wrote 2019-09-01-back-to-jekyll.markdown and I will try 2019-10-01-back-to-jekyll.ext
 
 It looks like it's about the file date which was 2019-30-01 ... Working now!
 
 It looks like I broke something due to this post name, I wrote 2019-09-01-back-to-jekyll.ext and I will try 2019-10-01-back-to-jekyll.markdown
-
 
 [git-guide]: http://rogerdudler.github.io/git-guide/
