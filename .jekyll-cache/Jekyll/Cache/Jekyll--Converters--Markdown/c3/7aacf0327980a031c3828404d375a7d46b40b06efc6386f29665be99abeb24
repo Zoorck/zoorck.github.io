@@ -1,0 +1,18 @@
+I"<p>First of all I’ve enabled Sublime spell check, hopefully it will make me more understandable…</p>
+
+<p>And now, let’s go with cayman theme. I’d like to show the before look and feel for the blog but I don’t know how to do it so I’ll leave a reference here to try to show it.</p>
+
+<p><img src="&quot;/assets/img/minima_look.jpeg&quot;" alt="Minima look and feel" /></p>
+
+<p>Following <a href="https://github.com/pages-themes/cayman">Cayman documentation</a> directly I’ve set _config.yml to include jekyll-theme-cayman and since I would like to be able to reproduce locally the site, I’ve also added a gem to my <strong>Gemfile</strong> : gem “github-pages”, group: :jekyll_plugins</p>
+
+<p>Since I’ve made a modification on dependencies in the Gemfile, bundle exec command on jeckyll serve asks me to install the new gem. <code class="highlighter-rouge">bundle install</code></p>
+
+<p>A lot of weird things on the gemfile until I used jekyll-feed version from 1.2 to 0.9 that the command-line prompt was telling me to define.</p>
+
+<p>Now nothing works serving the files locally but it seems a problem on layouts definition. Let’s see if we can fix this. As expected we have to clone the repo locally so that everything can be tested from source files.</p>
+
+<p>I think I changed my mind and I’ll try to build layouts from my own.</p>
+
+<p>It looks like I broke something, I’ll pull my repo from GitHub! Obviously I’ll have to backup this post. Well I managed to fix it on my own, just introducing a bad version of jekyll-feed.</p>
+:ET

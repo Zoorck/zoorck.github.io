@@ -1,5 +1,4 @@
-I"
-<p>After reading <a href="https://github.com/pages-themes/cayman">Creating and Hosting a Personal Site on GitHub</a> i just understood some more about jeckyll but the truth is I’m still not sure on how URLs work in jekyll + GitHub pages and why my assets are not properly displayed in my blog, so let’s try on some more research.</p>
+I"0<p>After reading <a href="https://github.com/pages-themes/cayman">Creating and Hosting a Personal Site on GitHub</a> i just understood some more about jeckyll but the truth is I’m still not sure on how URLs work in jekyll + GitHub pages and why my assets are not properly displayed in my blog, so let’s try on some more research.</p>
 
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Adorable-animal-cat-20787.jpg" alt="A beautyfull cat" /></p>
 
@@ -7,7 +6,7 @@
 
 <p>At least, I’m not so frustrated now. Easy guide following <a href="https://www.youtube.com/watch?v=afFb_DcBBdA">this video</a></p>
 
-<p>Why it’s now working in the GitHub Pages repo now? Date and time issues, I’m not sure to have the right configuration both in my local system and GitHub atomated datetime.</p>
+<p>Why it’s now working in the GitHub Pages repo now? Date and time issues, I’m not sure to have the right configuration both in my local system and GitHub automated datetime.</p>
 
 <p>I may want to find a way to fix this adding a +1h to all posts. Yes, that’s it, I’m in Spain so… Not sure if this is a real fix for the problem.</p>
 
@@ -17,17 +16,23 @@
 timezone: Europe/Madrid
 </code></pre></div></div>
 
-<p>I just started to find warnings when adding changes to staging with git. (I’m starting to feel like a pro with git even though I only use 3 commends) It’s related to some sort of file that Jekyll is authomatically generating in the cache folder. I really don’t know why this folder is there but it keeps changing a lot on every commit.</p>
+<p>I just started to find warnings when adding changes to staging with git. (I’m starting to feel like a pro with git even though I only use 3 commends) It’s related to some sort of file that Jekyll is automatically generating in the cache folder. I really don’t know why this folder is there but it keeps changing a lot on every commit.</p>
 
 <p>Well the warning is about a LF being changed to CRLF and the original line endings in my working directory… let’s google.</p>
 
-<p>I just found it is related to the way Unix systems treat line endings, or <strong>Line feeds = LF</strong>. I’ll just copy paste and <a href="https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important">reference</a> to the original onswer:</p>
+<p>I just found it is related to the way Unix systems treat line endings, or <strong>Line feeds = LF</strong>. I’ll just copy paste and <a href="https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important">reference</a> to the original owner:</p>
 
 <p><em>In Unix systems the end of a line is represented with a line feed (LF). In windows a line is represented with a carriage return (CR) and a line feed (LF) thus (CRLF). when you get code from git that was uploaded from a unix system they will only have an LF.</em></p>
 
 <p><em>If you want to turn this warning off, type this in the git command line:</em></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config core.autocrlf true
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global core.autocrlf true
 </code></pre></div></div>
 <p><em>If you want to make an intelligent decision how git should handle this, read <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#Formatting-and-Whitespace">the documentation</a></em></p>
+
+<p>I’ve read the docs and it really helps to understand how git should behave in your project to be able to share files with unix users without running into problems.</p>
+
+<p>Ending blog here and now let’s finally focus on some front googlooking website.</p>
+
+<p>See you soon!</p>
 
 :ET
