@@ -16,6 +16,9 @@ url: "https://zoorck.github.io" # the base hostname & protocol for your site
 twitter_username: empty
 github_username:  Zoorck
 
+# set timezone
+timezone: Europe/Madrid
+
 # Build settings
 theme: minima
 plugins:
