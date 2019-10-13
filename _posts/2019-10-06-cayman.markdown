@@ -24,3 +24,7 @@ I think I changed my mind and I'll try to build layouts from my own.
 It looks like I broke something, I'll pull my repo from GitHub! Obviously I'll have to backup this post. Well I managed to fix it on my own, just introducing a bad version of jekyll-feed.
 
 Now I'll try and touch the look and feel by html and css already existing. First I'll try to install scss to sublime.
+
+---
+<br/>
+And now what?

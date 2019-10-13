@@ -1,10 +1,15 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Marc Serra self-taught programmer. My goal is to feel comfortable enough to be self proclaimed a full-stack developer.  I've been playing with Python because of my background, I'm a physicist. Django Framework, Pandas Library, Scrappy, Numpy, ... are some of my best known trip friends now. 
+
+I've also been playing around with some JS basic skills, some AWS, docker, jekyll ;), HTML, CSS, SQL, php, and some other stuff that I'll be sharing right here in my blog and on my GitHub.
+
+
+[jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
