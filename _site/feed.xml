@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zoorck's web</title>
+    <description>Personal website designed to post some blog entries and also some code and personal discoveries.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 13 Oct 2019 20:17:32 +0200</pubDate>
+    <lastBuildDate>Sun, 13 Oct 2019 20:17:32 +0200</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>First approach to css for the web</title>
+        <description>&lt;p&gt;Well, let’s try to use some css or scss to modify the look and feel of the website.&lt;/p&gt;
+
+&lt;p&gt;I Just were able to change page font! I’ve included the open source font to the assets/ folder and modified the main.scss inside the css folder.&lt;/p&gt;
+
+&lt;p&gt;It’s estrange that relative URL is now working properly to import the font but not with images…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@font-face {
+	font-family: &quot;bumblebear&quot;;
+	src: url(&quot;../assets/fonts/Bumblebear.otf&quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 13 Oct 2019 16:31:00 +0200</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/10/13/css-time.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/10/13/css-time.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Let's try to implement cayman</title>
+        <description>&lt;p&gt;First of all I’ve enabled Sublime spell check, hopefully it will make me more understandable…&lt;/p&gt;
+
+&lt;p&gt;And now, let’s go with cayman theme. I’d like to show the before look and feel for the blog but I don’t know how to do it so I’ll leave a reference here to try to show it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/old_look.jpeg&quot; alt=&quot;Minima look and feel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Following &lt;a href=&quot;https://github.com/pages-themes/cayman&quot;&gt;Cayman documentation&lt;/a&gt; directly I’ve set _config.yml to include jekyll-theme-cayman and since I would like to be able to reproduce locally the site, I’ve also added a gem to my &lt;strong&gt;Gemfile&lt;/strong&gt; : gem “github-pages”, group: :jekyll_plugins&lt;/p&gt;
+
+&lt;p&gt;Since I’ve made a modification on dependencies in the Gemfile, bundle exec command on jeckyll serve asks me to install the new gem. &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of weird things on the gemfile until I used jekyll-feed version from 1.2 to 0.9 that the command-line prompt was telling me to define.&lt;/p&gt;
+
+&lt;p&gt;Now nothing works serving the files locally but it seems a problem on layouts definition. Let’s see if we can fix this. As expected we have to clone the repo locally so that everything can be tested from source files.&lt;/p&gt;
+
+&lt;p&gt;I think I changed my mind and I’ll try to build layouts from my own.&lt;/p&gt;
+
+&lt;p&gt;It looks like I broke something, I’ll pull my repo from GitHub! Obviously I’ll have to backup this post. Well I managed to fix it on my own, just introducing a bad version of jekyll-feed.&lt;/p&gt;
+
+&lt;p&gt;Now I’ll try and touch the look and feel by html and css already existing. First I’ll try to install scss to sublime.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;
+And now what?&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Oct 2019 16:31:00 +0200</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/10/05/cayman.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/10/05/cayman.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Start with a guide for beginners</title>
+        <description>&lt;p&gt;After reading &lt;a href=&quot;https://github.com/pages-themes/cayman&quot;&gt;Creating and Hosting a Personal Site on GitHub&lt;/a&gt; i just understood some more about jeckyll but the truth is I’m still not sure on how URLs work in jekyll + GitHub pages and why my assets are not properly displayed in my blog, so let’s try on some more research.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/3/38/Adorable-animal-cat-20787.jpg&quot; alt=&quot;A beautyfull cat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I found this image and it looks like we can store images over the internet but not in the local Repo… well, it’s not what I wanted to do but it’s a start.&lt;/p&gt;
+
+&lt;p&gt;At least, I’m not so frustrated now. Easy guide following &lt;a href=&quot;https://www.youtube.com/watch?v=afFb_DcBBdA&quot;&gt;this video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Why it’s now working in the GitHub Pages repo now? Date and time issues, I’m not sure to have the right configuration both in my local system and GitHub automated datetime.&lt;/p&gt;
+
+&lt;p&gt;I may want to find a way to fix this adding a +1h to all posts. Yes, that’s it, I’m in Spain so… Not sure if this is a real fix for the problem.&lt;/p&gt;
+
+&lt;p&gt;I just found &lt;a href=&quot;https://mehmandarov.com/jekyll-content-on-time/&quot;&gt;this post&lt;/a&gt; where a good explanation on how to establish Jekyll date and time zone and this &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_tz_database_time_zones&quot;&gt;other wiki post&lt;/a&gt; where all the time zone options are displayed.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# set timezone
+timezone: Europe/Madrid
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I just started to find warnings when adding changes to staging with git. (I’m starting to feel like a pro with git even though I only use 3 commends) It’s related to some sort of file that Jekyll is automatically generating in the cache folder. I really don’t know why this folder is there but it keeps changing a lot on every commit.&lt;/p&gt;
+
+&lt;p&gt;Well the warning is about a LF being changed to CRLF and the original line endings in my working directory… let’s google.&lt;/p&gt;
+
+&lt;p&gt;I just found it is related to the way Unix systems treat line endings, or &lt;strong&gt;Line feeds = LF&lt;/strong&gt;. I’ll just copy paste and &lt;a href=&quot;https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important&quot;&gt;reference&lt;/a&gt; to the original owner:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In Unix systems the end of a line is represented with a line feed (LF). In windows a line is represented with a carriage return (CR) and a line feed (LF) thus (CRLF). when you get code from git that was uploaded from a unix system they will only have an LF.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you want to turn this warning off, type this in the git command line:&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global core.autocrlf true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;If you want to make an intelligent decision how git should handle this, read &lt;a href=&quot;https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#Formatting-and-Whitespace&quot;&gt;the documentation&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve read the docs and it really helps to understand how git should behave in your project to be able to share files with unix users without running into problems.&lt;/p&gt;
+
+&lt;p&gt;Ending blog here and now let’s finally focus on some front googlooking website.&lt;/p&gt;
+
+&lt;p&gt;See you soon!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 05 Oct 2019 16:31:00 +0200</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/10/05/guide-time.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/10/05/guide-time.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Let's make better posts</title>
+        <description>&lt;p&gt;First of all I just installed jekyll to be able to serve the web in localhost:4000 but it looks like it won’t work with the current website file content, so I’ll try to build it from scratch since I think I will be able to reuse the posts (which are almost everything I built).&lt;/p&gt;
+
+&lt;p&gt;After installing jekyll locally I thought of building my development environment in a docker container but then I felt that it would take to much time before I could actually put some stuff online so maybe I’ll be trying this latter on.&lt;/p&gt;
+
+&lt;p&gt;Wait! I just installed &lt;a href=&quot;https://www.sublimemerge.com/&quot;&gt;Sublime Merge&lt;/a&gt; to my text editor and it actually worked for the 10th commit of my current website… amazing.&lt;/p&gt;
+
+&lt;p&gt;After selecting &lt;a href=&quot;https://github.com/pages-themes/cayman&quot;&gt;cayman&lt;/a&gt; as my web theme, I’ll try to open a branch, create the blog following cayman instructions and we’ll see what we can then recycle from the current blog. (and how we marge with the master branch)&lt;/p&gt;
+
+&lt;p&gt;I think I created a branch called newlook and after that I started a project with default jekyll commands: jekyll new blog&lt;/p&gt;
+
+&lt;p&gt;After that I just copied all the files to the old folder to be able to run the website in localhost. And it Worked! (almost) I deleted a file and there is a post not being displayed. I’ll try to push it to the GitHub repo. Done!&lt;/p&gt;
+
+&lt;p&gt;Now I’m gonna try to attach an image demonstrating it, first, let’s include this asset in assets/img.&lt;/p&gt;
+
+&lt;p&gt;Now the config file: COPY&amp;amp;PASTE time&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;defaults:
+  - scope:
+      path: &quot;assets/images&quot;
+    values:
+      image: true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Aaaaaaand… not working this way.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../../assets/images/newlook_branch.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, Now I’ve tried to insert and image but I’m not being able to show it on localhost, maybe it’s because I’ve been working on newlook branch and not in master branch. I’ll marge it and see what happens.&lt;/p&gt;
+
+&lt;p&gt;Nothing is working as expected so I think I’ll just leave it here for now.&lt;/p&gt;
+
+&lt;p&gt;See you soon.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 05 Oct 2019 04:31:00 +0200</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/10/05/make-it-better.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/10/05/make-it-better.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Back to Jekyll!</title>
+        <description>&lt;p&gt;After digging some information around I just found some useful information about basic commands on git in this website: &lt;a href=&quot;http://rogerdudler.github.io/git-guide/&quot;&gt;git - the simple guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After being able to understand that there is no need to authenticate with user and pass to pull a public repo (my own repo) I was able to store it in my local
+laptop.&lt;/p&gt;
+
+&lt;p&gt;Back to what was my main goal (achieve a first commit and push it into the main branch on GitHub) I decided to modify my personal data for this web page, and 
+surprisingly I was able to remember my GitHub pass :D&lt;/p&gt;
+
+&lt;p&gt;I started to investigate how to give the website a good-looking presentation without much success on how to migrate it to a new theme. Maybe a quest for tomorrow.&lt;/p&gt;
+
+&lt;p&gt;I think I will push this new entry and description to the repo and give up for today, it’s okey for a 30min research task. &lt;/p&gt;
+
+&lt;p&gt;It looks like I broke something due to this post name, I wrote 2019-09-01-back-to-jekyll.markdown and I will try 2019-10-01-back-to-jekyll.ext&lt;/p&gt;
+
+&lt;p&gt;It looks like it’s about the file date which was 2019-30-01 … Working now!&lt;/p&gt;
+
+&lt;p&gt;It looks like I broke something due to this post name, I wrote 2019-09-01-back-to-jekyll.ext and I will try 2019-10-01-back-to-jekyll.markdown&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Oct 2019 03:31:00 +0200</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/10/01/back-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/10/01/back-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 24 Aug 2018 13:25:12 +0200</pubDate>
+        <link>http://localhost:4000/jekyll/update/2018/08/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2018/08/24/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

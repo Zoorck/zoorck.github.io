@@ -2,12 +2,22 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
-
+@font-face {
+	font-family: "bumblebear";
+	src: url("../assets/fonts/Bumblebear.otf")
+}
+@font-face {
+	font-family: "Hotel";
+	src: url("../assets/fonts/GrandHotel-Regular.otf")
+}
+@font-face {
+	font-family: "Sans";
+	src: url("../assets/fonts/JosefinSans-Regular.ttf")
+}
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: "Sans", "Hotel", "bumblebear", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   22px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;

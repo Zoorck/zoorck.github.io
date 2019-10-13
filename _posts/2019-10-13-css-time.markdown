@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "First approach to css for the web"
+date:   2019-10-13 14:31:00 +0000
+categories: jekyll update
+---
+
+Well, let's try to use some css or scss to modify the look and feel of the website.
+
+I Just were able to change page font! I've included the open source font to the assets/ folder and modified the main.scss inside the css folder.
+
+It's estrange that relative URL is now working properly to import the font but not with images...
+
+```
+@font-face {
+	font-family: "bumblebear";
+	src: url("../assets/fonts/Bumblebear.otf")
+}
+```

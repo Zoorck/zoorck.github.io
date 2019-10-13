@@ -24,14 +24,14 @@ Now the config file: COPY&PASTE time
 ```
 defaults:
   - scope:
-      path: "assets/img"
+      path: "assets/images"
     values:
       image: true
 ```
 
 Aaaaaaand... not working this way.
 
-<img src="{{site.baseurl}}/assets/img/newlook_branch.jpeg" alt="Branches image">
+<img src="../../../../../assets/images/newlook_branch.jpeg">
 
 Well, Now I've tried to insert and image but I'm not being able to show it on localhost, maybe it's because I've been working on newlook branch and not in master branch. I'll marge it and see what happens.
 

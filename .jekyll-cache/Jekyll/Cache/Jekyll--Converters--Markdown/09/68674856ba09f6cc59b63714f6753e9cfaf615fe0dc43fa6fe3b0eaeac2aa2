@@ -1,0 +1,10 @@
+I"�<p>Well, let’s try to use some css or scss to modify the look and feel of the website.</p>
+
+<p>I Just were able to change page font! I’ve included the open source font to the assets/fonts/font.otf and modified the main.scss</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@font-face {
+	font-family: "bumblebear";
+	src: url("../assets/fonts/Bumblebear.otf")
+}
+</code></pre></div></div>
+:ET
