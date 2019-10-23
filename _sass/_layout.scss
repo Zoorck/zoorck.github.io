@@ -5,9 +5,10 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    width: 100%;
+    background-color: $background-color;
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
 }
 
 .site-title {
@@ -207,6 +208,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    margin-top: 56px;
 
     @include media-query($on-laptop) {
         font-size: 36px;

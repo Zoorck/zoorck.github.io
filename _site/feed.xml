@@ -6,9 +6,42 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Oct 2019 10:20:11 +0200</pubDate>
-    <lastBuildDate>Sat, 19 Oct 2019 10:20:11 +0200</lastBuildDate>
+    <pubDate>Thu, 24 Oct 2019 01:34:43 +0200</pubDate>
+    <lastBuildDate>Thu, 24 Oct 2019 01:34:43 +0200</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Finally creating layouts</title>
+        <description>&lt;p&gt;Again late at night I just realized that I was still giving the Blog section the “home” class and the “default” layout instead of the “page” one.&lt;/p&gt;
+
+&lt;p&gt;This was causing many troubles to fix the navigation bar at the top of the browser without covering the actual pages content. Well, I’ve set up the main page as a default layout and the other sections, as a page layout.&lt;/p&gt;
+
+&lt;p&gt;Now I want to implement a homepage that helps understanding what I’m building. I think it should really describe the three main sections I want to cover:&lt;/p&gt;
+
+&lt;ul&gt; &lt;strong&gt;Blog entries: &lt;/strong&gt; The place where I'll be explaining my experience learning about programming.&lt;/ul&gt;
+
+&lt;ul&gt; &lt;strong&gt;&quot;Complete&quot; guides: &lt;/strong&gt; A list on how to do something quite specific and limited.&lt;/ul&gt;
+
+&lt;ul&gt; &lt;strong&gt;Demos: &lt;/strong&gt; Some demonstrations on what I've created in a more interactive environment (hopefully).&lt;/ul&gt;
+
+&lt;p&gt;First I have to prepare a mental map on what to build. As I have Adobe Illustrator nearby I’ll prepare a horrible first-attempt design. Okey, it doesn’t even get closer to what’s on my head. I’ll try to go for the css.&lt;/p&gt;
+
+&lt;p&gt;I think it’s just an other time-consuming self-teaching experience that adds no value to the web. At least I know which is not the solution:&lt;/p&gt;
+
+&lt;p&gt;Neither content-align nor margin… But I’ll keep digging in the &lt;a href=&quot;https://www.w3schools.com/css/default.asp&quot;&gt;css documentation&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;See you soon!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Oct 2019 16:31:00 +0200</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/10/23/more-layouts.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/10/23/more-layouts.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>First approach to css for the web</title>
