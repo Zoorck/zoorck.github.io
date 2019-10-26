@@ -6,20 +6,17 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Oct 2019 14:47:28 +0200</pubDate>
-    <lastBuildDate>Sat, 26 Oct 2019 14:47:28 +0200</lastBuildDate>
+    <pubDate>Sat, 26 Oct 2019 18:03:06 +0200</pubDate>
+    <lastBuildDate>Sat, 26 Oct 2019 18:03:06 +0200</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Let's ask the community</title>
-        <description>&lt;p&gt;Today I’ve decided to surrender to my inability to attach images to my posts. There is a wonderful place to visit on those situations so I’ve published the issue on &lt;a href=&quot;https://stackoverflow.com/questions/58570354/how-to-fix-images-not-displaying-in-jekyll-from-assets-folder&quot;&gt;StackOverflow&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Today I’ve decided to surrender to my inability to attach images to my posts. There is a wonderful place to visit on those situations so I’ve published the issue on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Hopefully there will be a nice wise developer who will loose some time giving me a obvious solution to this =D.&lt;/p&gt;
+&lt;p&gt;Hopefully there will be a nice wise developer who will loose some time giving me a obvious solution to this =D. Aaaand they did.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/old_look.JPEG&quot; alt=&quot;Image&quot; /&gt;
-&lt;img src=&quot;/assets/images/old_look.JPEG&quot; alt=&quot;Image&quot; /&gt;
-&lt;img src=&quot;&amp;quot;/assets/images/old_look.JPEG&amp;quot;&quot; alt=&quot;Image&quot; /&gt;
-&lt;img src=&quot;&amp;quot;../assets/images/old_look.JPEG&amp;quot;&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/old_look.JPG&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Oct 2019 14:31:00 +0200</pubDate>
         <link>http://localhost:4000/jekyll/update/2019/10/26/community-help.html</link>
