@@ -10,7 +10,7 @@ title: Zoorck's web
 email: mserra95@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal website designed to post some blog entries and also
-  some code and personal discoveries.
+  some code and discoveries.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zoorck.github.io" # the base hostname & protocol for your site
 twitter_username: empty
