@@ -9,7 +9,8 @@ First of all I've enabled Sublime spell check, hopefully it will make me more un
 
 And now, let's go with cayman theme. I'd like to show the before look and feel for the blog but I don't know how to do it so I'll leave a reference here to try to show it.
 
-![Minima look and feel](../assets/images/old_look.jpeg)
+[01/10/2019 Update] I finally did it!
+![Image]({{ "/assets/images/old_look.JPG" | absolute_url }})
 
 Following [Cayman documentation](https://github.com/pages-themes/cayman) directly I've set \_config.yml to include jekyll-theme-cayman and since I would like to be able to reproduce locally the site, I've also added a gem to my **Gemfile** : gem "github-pages", group: :jekyll_plugins
 

@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Nov 2019 15:57:23 +0100</pubDate>
-    <lastBuildDate>Fri, 01 Nov 2019 15:57:23 +0100</lastBuildDate>
+    <pubDate>Fri, 01 Nov 2019 16:06:02 +0100</pubDate>
+    <lastBuildDate>Fri, 01 Nov 2019 16:06:02 +0100</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -102,7 +102,8 @@
 
 &lt;p&gt;And now, let’s go with cayman theme. I’d like to show the before look and feel for the blog but I don’t know how to do it so I’ll leave a reference here to try to show it.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/old_look.jpeg&quot; alt=&quot;Minima look and feel&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;[01/10/2019 Update] I finally did it!
+&lt;img src=&quot;http://localhost:4000/assets/images/old_look.JPG&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Following &lt;a href=&quot;https://github.com/pages-themes/cayman&quot;&gt;Cayman documentation&lt;/a&gt; directly I’ve set _config.yml to include jekyll-theme-cayman and since I would like to be able to reproduce locally the site, I’ve also added a gem to my &lt;strong&gt;Gemfile&lt;/strong&gt; : gem “github-pages”, group: :jekyll_plugins&lt;/p&gt;
 
