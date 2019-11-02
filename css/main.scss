@@ -32,7 +32,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$banner-img: url({{ "/assets/images/banner2.JPG" | absolute_url }});
+$banner-img: url({{ "/assets/images/banner2.jpg" | absolute_url }});
 
 // Width of the content area
 $content-width:    800px;

@@ -122,7 +122,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-link { display: block; font-size: 24px; }
 
-.banner { background-color: lightgrey; text-align: left; background-image: url(http://localhost:4000/assets/images/banner2.JPG); min-height: 400px; color: black; font-size: 30px; padding-top: 200px; padding-left: 10px; line-height: 0.65; }
+.banner { background-color: lightgrey; text-align: left; background-image: url(http://localhost:4000/assets/images/banner2.jpg); min-height: 400px; color: black; font-size: 30px; padding-top: 200px; padding-left: 10px; line-height: 0.65; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
