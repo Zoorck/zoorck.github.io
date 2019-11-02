@@ -17,3 +17,5 @@ Hopefully there will be a nice wise developer who will loose some time giving me
 ```
 
 Those were my options and in the end 2 of them worked! (first and second one).
+
+Nothing more to tell about this for now. See you soon!

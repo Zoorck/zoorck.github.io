@@ -6,9 +6,37 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Nov 2019 16:06:02 +0100</pubDate>
-    <lastBuildDate>Fri, 01 Nov 2019 16:06:02 +0100</lastBuildDate>
+    <pubDate>Sat, 02 Nov 2019 02:08:32 +0100</pubDate>
+    <lastBuildDate>Sat, 02 Nov 2019 02:08:32 +0100</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Creating a Banner</title>
+        <description>&lt;p&gt;First impressions are important. So I think that my web doesn’t have a good start (home page). That’s basically due to the fact that it only says “Hello world!”. I’ve managed to go from this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/old_look2.JPG&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;to this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/newlook2.JPG&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://www.pexels.com/photo/photo-of-mountains-under-cloudy-sky-3022417/&quot;&gt;this&lt;/a&gt;! So thank you very much &lt;a href=&quot;https://www.pexels.com/@tomas-malco-malik-793526&quot;&gt;Tomáš Malčo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And also had to work out some css like this small trim:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banner_css.JPG&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 01 Nov 2019 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/11/01/main-page.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/11/01/main-page.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Let's ask the community</title>
@@ -23,6 +51,8 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Those were my options and in the end 2 of them worked! (first and second one).&lt;/p&gt;
+
+&lt;p&gt;Nothing more to tell about this for now. See you soon!&lt;/p&gt;
 </description>
         <pubDate>Sat, 26 Oct 2019 13:31:00 +0100</pubDate>
         <link>http://localhost:4000/jekyll/update/2019/10/26/community-help.html</link>
@@ -212,7 +242,8 @@ timezone: Europe/Madrid
 
 &lt;p&gt;Aaaaaaand… not working this way.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../../../../assets/images/newlook_branch.jpeg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;[01/11/2019 Update] - Now it’s working properly! Described in &lt;a href=&quot;/jekyll/update/2019/10/26/community-help.html&quot;&gt;this post&lt;/a&gt; 
+&lt;img src=&quot;http://localhost:4000/assets/images/newlook_branch.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, Now I’ve tried to insert and image but I’m not being able to show it on localhost, maybe it’s because I’ve been working on newlook branch and not in master branch. I’ll marge it and see what happens.&lt;/p&gt;
 

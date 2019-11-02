@@ -122,6 +122,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-link { display: block; font-size: 24px; }
 
+.banner { background-color: lightgrey; text-align: left; background-image: url("/assets/images/banner2.jpg"); min-height: 400px; color: black; font-size: 30px; padding-top: 200px; padding-left: 10px; line-height: 0.65; }
+
 /** Posts */
 .post-header { margin-bottom: 30px; }
 

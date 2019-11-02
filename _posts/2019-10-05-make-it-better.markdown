@@ -31,7 +31,8 @@ defaults:
 
 Aaaaaaand... not working this way.
 
-<img src="../../../../../assets/images/newlook_branch.jpeg">
+[01/11/2019 Update] - Now it's working properly! Described in [this post]({% post_url 2019-10-26-community-help %}) 
+![Image]({{ "/assets/images/newlook_branch.jpg" | absolute_url }})
 
 Well, Now I've tried to insert and image but I'm not being able to show it on localhost, maybe it's because I've been working on newlook branch and not in master branch. I'll marge it and see what happens.
 

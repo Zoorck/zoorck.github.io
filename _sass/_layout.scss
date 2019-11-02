@@ -194,7 +194,17 @@
     display: block;
     font-size: 24px;
 }
-
+.banner {
+    background-color: lightgrey;
+    text-align: left;
+    background-image: $banner-img;
+    min-height: 400px;
+    color: black;
+    font-size: 30px;
+    padding-top: 200px;
+    padding-left: 10px;
+    line-height: 0.65;
+}
 
 
 /**
