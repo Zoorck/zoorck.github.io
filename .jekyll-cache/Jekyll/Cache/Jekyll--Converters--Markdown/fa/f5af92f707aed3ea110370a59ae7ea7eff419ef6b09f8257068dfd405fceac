@@ -1,0 +1,19 @@
+I"<p>After digging some information around I just found some useful information about basic commands on git in this website: <a href="http://rogerdudler.github.io/git-guide/">git - the simple guide</a></p>
+
+<p>After being able to understand that there is no need to authenticate with user and pass to pull a public repo (my own repo) I was able to store it in my local
+laptop.</p>
+
+<p>Back to what was my main goal (achieve a first commit and push it into the main branch on GitHub) I decided to modify my personal data for this web page, and 
+surprisingly I was able to remember my GitHub pass :D</p>
+
+<p>I started to investigate how to give the website a good-looking presentation without much success on how to migrate it to a new theme. Maybe a quest for tomorrow.</p>
+
+<p>I think I will push this new entry and description to the repo and give up for today, it’s okey for a 30min research task. </p>
+
+<p>It looks like I broke something due to this post name, I wrote 2019-09-01-back-to-jekyll.markdown and I will try 2019-10-01-back-to-jekyll.ext</p>
+
+<p>It looks like it’s about the file date which was 2019-30-01 … Working now!</p>
+
+<p>It looks like I broke something due to this post name, I wrote 2019-09-01-back-to-jekyll.ext and I will try 2019-10-01-back-to-jekyll.markdown</p>
+
+:ET

@@ -1,12 +1,19 @@
 /**
  * Site header
  */
+ @keyframes float-down {
+  from {height: 0%;}
+  to   {height: default;}
+}
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     width: 100%;
     background-color: $background-color;
+    animation-name: float-down;
+    animation-duration: 2s;
     // Positioning context for the mobile navigation icon
     position: fixed;
 }
@@ -195,10 +202,12 @@
     font-size: 24px;
 }
 .banner {
-    background-color: lightgrey;
     text-align: left;
-    background-image: $banner-img;
+    background-image: $banner-img, linear-gradient(white, grey);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 400px;
+    max-height: 550px;
     color: black;
     font-size: 30px;
     padding-top: 200px;

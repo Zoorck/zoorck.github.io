@@ -64,7 +64,10 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .icon > svg path { fill: #828282; }
 
 /** Site header */
-.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 56px; width: 100%; background-color: #fdfdfd; position: fixed; }
+@keyframes float-down { from { height: 0%; }
+  to { height: default; } }
+
+.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 56px; width: 100%; background-color: #fdfdfd; animation-name: float-down; animation-duration: 2s; position: fixed; }
 
 .site-title { font-size: 26px; font-weight: 300; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; float: left; }
 
@@ -122,7 +125,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-link { display: block; font-size: 24px; }
 
-.banner { background-color: lightgrey; text-align: left; background-image: url(http://localhost:4000/assets/images/banner2.jpg); min-height: 400px; color: black; font-size: 30px; padding-top: 200px; padding-left: 10px; line-height: 0.65; }
+.banner { text-align: left; background-image: url(http://localhost:4000/assets/images/banner2.jpg), linear-gradient(white, grey); background-repeat: no-repeat; background-size: cover; min-height: 400px; max-height: 550px; color: black; font-size: 30px; padding-top: 200px; padding-left: 10px; line-height: 0.65; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }

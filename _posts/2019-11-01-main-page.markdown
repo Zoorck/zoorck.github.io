@@ -20,3 +20,7 @@ And also had to work out some css like this small trim:
 
 ![Image]({{ "/assets/images/banner_css.JPG" | absolute_url }})
 
+It looks like .jpg is key sensitive when related to a css img file but not in a blog... sounds quite weird to me but it is working now and it wasn't.
+
+Good night everyone, see you soon!
+
