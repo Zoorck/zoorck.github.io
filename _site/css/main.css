@@ -64,16 +64,16 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .icon > svg path { fill: #828282; }
 
 /** Site header */
-@keyframes float-down { from { height: 0%; }
-  to { height: default; } }
+@keyframes fade-in { from { opacity: 0; }
+  to { opacity: 1; } }
 
-.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 56px; width: 100%; background-color: #fdfdfd; animation-name: float-down; animation-duration: 2s; position: fixed; }
+.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 56px; width: 100%; background-color: #fdfdfd; position: fixed; }
 
-.site-title { font-size: 26px; font-weight: 300; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; float: left; }
+.site-title { font-size: 26px; font-weight: 300; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; float: left; animation-name: fade-in; animation-duration: 1s; }
 
 .site-title, .site-title:visited { color: #424242; }
 
-.site-nav { float: right; line-height: 56px; }
+.site-nav { float: right; line-height: 56px; animation-name: fade-in; animation-duration: 1s; }
 
 .site-nav .menu-icon { display: none; }
 
@@ -125,7 +125,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-link { display: block; font-size: 24px; }
 
-.banner { text-align: left; background-image: url(http://localhost:4000/assets/images/banner2.jpg), linear-gradient(white, grey); background-repeat: no-repeat; background-size: cover; min-height: 400px; max-height: 550px; color: black; font-size: 30px; padding-top: 200px; padding-left: 10px; line-height: 0.65; }
+.banner { text-align: left; background-image: url(http://localhost:4000/assets/images/banner2.jpg), linear-gradient(white, grey); background-repeat: no-repeat; background-size: cover; min-height: 400px; color: black; font-size: 30px; padding-top: 200px; padding-left: 10px; line-height: 1; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
