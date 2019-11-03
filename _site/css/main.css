@@ -4,6 +4,9 @@
 
 @font-face { font-family: "Sans"; src: url("../assets/fonts/JosefinSans-Regular.ttf"); }
 
+@keyframes right-underline { from { width: 0%; }
+  to { width: 100%; } }
+
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
@@ -73,7 +76,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .site-title, .site-title:visited { color: #424242; }
 
-.site-nav { float: right; line-height: 56px; animation-name: fade-in; animation-duration: 1s; }
+.site-nav { float: right; line-height: 56px; animation-name: fade-in; animation-duration: 1.5s; }
 
 .site-nav .menu-icon { display: none; }
 
@@ -147,6 +150,12 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .post-content h4 { font-size: 20px; }
 
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
+
+.flex-container { display: flex; flex-wrap: wrap; justify-content: space-around; }
+
+.flex-child { text-align: center; background-color: #BAC1D3; width: 27%; min-width: 100px; padding: 7.5px; margin: 7px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19); border-radius: 10px; }
+
+.flex-child:hover { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 15px 0 rgba(0, 0, 0, 0.19); }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
