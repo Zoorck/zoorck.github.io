@@ -274,7 +274,7 @@
     text-align: center;
     background-color: #BAC1D3;
     width: 27%;
-    min-width: 100px;
+    min-width: 200px;
     padding:7.5px;
     margin: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
@@ -282,4 +282,8 @@
 }
 .flex-child:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h1-code {
+    font-size: 46px;
 }
