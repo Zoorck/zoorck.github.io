@@ -128,7 +128,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-link { display: block; font-size: 24px; }
 
-.banner { text-align: left; background-image: url(http://localhost:4000/assets/images/banner2.jpg), linear-gradient(white, grey); background-repeat: no-repeat; background-size: cover; min-height: 400px; color: black; font-size: 30px; padding-top: 200px; padding-left: 10px; line-height: 1; }
+.banner { text-align: left; display: flex; flex-direction: column; justify-content: center; background-image: url(http://localhost:4000/assets/images/banner2.jpg), linear-gradient(white, grey); background-repeat: no-repeat; background-size: cover; background-position: center; min-height: 450px; color: black; font-size: 30px; margin-top: 15px; padding-left: 5%; line-height: 1; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }

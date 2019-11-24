@@ -205,15 +205,18 @@
 }
 .banner {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: $banner-img, linear-gradient(white, grey);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
-//    max-height: 550px;
+    background-position: center;
+    min-height: 450px;
     color: black;
     font-size: 30px;
-    padding-top: 200px;
-    padding-left: 10px;
+    margin-top: 15px;
+    padding-left: 5%;
     line-height: 1;
 }
 
