@@ -153,7 +153,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .flex-container { display: flex; flex-wrap: wrap; justify-content: space-around; }
 
-.flex-child { text-align: center; background-color: #BAC1D3; width: 27%; min-width: 200px; padding: 7.5px; margin: 7px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19); border-radius: 10px; }
+.flex-child { text-align: center; background-color: #BAC1D3; width: 27%; min-width: 200px; padding: 7.5px; margin: 7px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19); border-radius: 10px; cursor: pointer; }
 
 .flex-child:hover { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 15px 0 rgba(0, 0, 0, 0.19); }
 

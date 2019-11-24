@@ -3,7 +3,6 @@ layout: default_home
 ---
 
 <div class="banner">
-
 	<div class="banner-title">
 		<h1> Learn - <code class="h1-code">/Code</code> - <strong>Learnt</strong></h1>
 		<p> From html to kubernetes</p>
@@ -15,15 +14,15 @@ layout: default_home
 		Well, we have 3 main parts in this website:
 	</h1>
 	<div class="flex-container">
-		<div class="flex-child"> 
+		<div class="flex-child" onclick="location.href='{{ "/posts/" | prepend: site.baseurl }}';"> 
 			<h2>Blog entries</h2>
 			<p>The place where I'll be explaining my experience learning about programming. </p>
 		</div> 
-		<div class="flex-child"> 
+		<div class="flex-child" onclick="location.href='{{ "" | prepend: site.baseurl }}';"> 
 			<h2>"Complete" guides</h2> 
 			<p>A list on how to do something quite specific and limited.</p> 
 		</div>
-		<div class="flex-child"> 
+		<div class="flex-child" onclick="location.href='{{ "" | prepend: site.baseurl }}';"> 
 			<h2>Demos</h2>
 			<p>Some demonstrations on what I've created in a more interactive environment (hopefully).</p>
 		</div>
