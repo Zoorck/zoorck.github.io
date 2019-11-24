@@ -1,0 +1,16 @@
+I"[<p>After remaking the banner text I’ve decided to link the three div sections after the banner, I found this example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div onclick="location.href='newurl.html';"&gt; content &lt;/div&gt;
+</code></pre></div></div>
+
+<p>And I made this adaption to fulfill my interests:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="flex-child" onclick="location.href='/posts/';"&gt;
+</code></pre></div></div>
+<p>Once the other sections star, I’ll be able to link them too. Now I’m going to try to change the cursor when hovering on top of the divs. I think it’s as easy as:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.flex-child {
+	cursor: pointer;
+}
+</code></pre></div></div>
+:ET

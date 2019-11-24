@@ -1,33 +1,25 @@
 ---
 layout: post
-title:  "Creating a Banner"
-date:   2019-11-01 00:00:00 +0000
+title:  "Hyperlinking div"
+date:   2019-11-24 00:00:00 +0000
 categories: jekyll update
 ---
 
-First impressions are important. So I think that my web doesn't have a good start (home page). That's basically due to the fact that it only says "Hello world!". I've managed to go from this:
+After remaking the banner text I've decided to link the three div sections after the banner, I found this example:
 
-![Old look homepage]({{ "/assets/images/old_look2.JPG" | absolute_url }})
+```
+<div onclick="location.href='newurl.html';"> content </div>
+```
 
-to this:
+And I made this adaption to fulfill my interests:
 
-![New look homepage]({{ "/assets/images/newlook2.JPG" | absolute_url }})
+```
+<div class="flex-child" onclick="location.href='{{ "/posts/" | prepend: site.baseurl }}';">
+```
+Once the other sections star, I'll be able to link them too. Now I'm going to try to change the cursor when hovering on top of the divs. I think it's as easy as:
 
-
-Thanks to [this](https://www.pexels.com/photo/photo-of-mountains-under-cloudy-sky-3022417/)! So thank you very much [Tomáš Malčo](https://www.pexels.com/@tomas-malco-malik-793526)
-
-And also had to work out some css like this small trim:
-
-![Banner css example]({{ "/assets/images/banner_css.JPG" | absolute_url }})
-
-It looks like .jpg is key sensitive when related to a css img file but not in a blog... sounds quite weird to me but it is working now and it wasn't.
-
-Good night everyone, see you soon!
-
-**[2019-11-24 Update]**
-
-I've managed to center "automatically" the banner text in the main page! You can check the changes from the image above:
-
-![New banner css]({{ "/assets/images/banner_flexbox.JPG" | absolute_url }})
-
-
+```
+.flex-child {
+	cursor: pointer;
+}
+```

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Creating a Banner</title>
-  <meta name="description" content="First impressions are important. So I think that my web doesn’t have a good start (home page). That’s basically due to the fact that it only says “Hello worl...">
+  <title>Hyperlinking div</title>
+  <meta name="description" content="After remaking the banner text I’ve decided to link the three div sections after the banner, I found this example:">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/jekyll/update/2019/11/01/hyperlink-div.html">
+  <link rel="canonical" href="http://localhost:4000/jekyll/update/2019/11/24/hyperlink-div.html">
   <link rel="alternate" type="application/rss+xml" title="Zoorck's web" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -65,35 +65,26 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Creating a Banner</h1>
-    <p class="post-meta"><time datetime="2019-11-01T01:00:00+01:00" itemprop="datePublished">Nov 1, 2019</time></p>
+    <h1 class="post-title" itemprop="name headline">Hyperlinking div</h1>
+    <p class="post-meta"><time datetime="2019-11-24T01:00:00+01:00" itemprop="datePublished">Nov 24, 2019</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>First impressions are important. So I think that my web doesn’t have a good start (home page). That’s basically due to the fact that it only says “Hello world!”. I’ve managed to go from this:</p>
+    <p>After remaking the banner text I’ve decided to link the three div sections after the banner, I found this example:</p>
 
-<p><img src="http://localhost:4000/assets/images/old_look2.JPG" alt="Old look homepage" /></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div onclick="location.href='newurl.html';"&gt; content &lt;/div&gt;
+</code></pre></div></div>
 
-<p>to this:</p>
+<p>And I made this adaption to fulfill my interests:</p>
 
-<p><img src="http://localhost:4000/assets/images/newlook2.JPG" alt="New look homepage" /></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="flex-child" onclick="location.href='/posts/';"&gt;
+</code></pre></div></div>
+<p>Once the other sections star, I’ll be able to link them too. Now I’m going to try to change the cursor when hovering on top of the divs. I think it’s as easy as:</p>
 
-<p>Thanks to <a href="https://www.pexels.com/photo/photo-of-mountains-under-cloudy-sky-3022417/">this</a>! So thank you very much <a href="https://www.pexels.com/@tomas-malco-malik-793526">Tomáš Malčo</a></p>
-
-<p>And also had to work out some css like this small trim:</p>
-
-<p><img src="http://localhost:4000/assets/images/banner_css.JPG" alt="Banner css example" /></p>
-
-<p>It looks like .jpg is key sensitive when related to a css img file but not in a blog… sounds quite weird to me but it is working now and it wasn’t.</p>
-
-<p>Good night everyone, see you soon!</p>
-
-<p><strong>[2019-11-24 Update]</strong></p>
-
-<p>I’ve managed to center “automatically” the banner text in the main page! You can check the changes from the image above:</p>
-
-<p><img src="http://localhost:4000/assets/images/banner_flexbox.JPG" alt="New banner css" /></p>
-
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.flex-child {
+	cursor: pointer;
+}
+</code></pre></div></div>
 
   </div>
 
