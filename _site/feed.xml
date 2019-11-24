@@ -6,29 +6,35 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Nov 2019 17:55:35 +0100</pubDate>
-    <lastBuildDate>Sun, 24 Nov 2019 17:55:35 +0100</lastBuildDate>
+    <pubDate>Sun, 24 Nov 2019 18:03:52 +0100</pubDate>
+    <lastBuildDate>Sun, 24 Nov 2019 18:03:52 +0100</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Creating a Banner</title>
         <description>&lt;p&gt;First impressions are important. So I think that my web doesn’t have a good start (home page). That’s basically due to the fact that it only says “Hello world!”. I’ve managed to go from this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/old_look2.JPG&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/old_look2.JPG&quot; alt=&quot;Old look homepage&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;to this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/newlook2.JPG&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/newlook2.JPG&quot; alt=&quot;New look homepage&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Thanks to &lt;a href=&quot;https://www.pexels.com/photo/photo-of-mountains-under-cloudy-sky-3022417/&quot;&gt;this&lt;/a&gt;! So thank you very much &lt;a href=&quot;https://www.pexels.com/@tomas-malco-malik-793526&quot;&gt;Tomáš Malčo&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;And also had to work out some css like this small trim:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banner_css.JPG&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banner_css.JPG&quot; alt=&quot;Banner css example&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It looks like .jpg is key sensitive when related to a css img file but not in a blog… sounds quite weird to me but it is working now and it wasn’t.&lt;/p&gt;
 
 &lt;p&gt;Good night everyone, see you soon!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[2019-11-24 Update]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve managed to center “automatically” the banner text in the main page! You can check the changes from the image above:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/banner_flexbox.JPG&quot; alt=&quot;New banner css&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 01 Nov 2019 01:00:00 +0100</pubDate>
