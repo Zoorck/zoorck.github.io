@@ -16,10 +16,12 @@ And I made this adaption to fulfill my interests:
 ```
 <div class="flex-child" onclick="location.href='{{ "/posts/" | prepend: site.baseurl }}';">
 ```
-Once the other sections star, I'll be able to link them too. Now I'm going to try to change the cursor when hovering on top of the divs. I think it's as easy as:
+Once the other sections start, I'll be able to link them too. Now I'm going to try to change the cursor when hovering on top of the divs. I think it's as easy as:
 
 ```
 .flex-child {
 	cursor: pointer;
 }
 ```
+
+Yes it is!

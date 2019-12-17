@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Nov 2019 18:49:12 +0100</pubDate>
-    <lastBuildDate>Sun, 24 Nov 2019 18:49:12 +0100</lastBuildDate>
+    <pubDate>Tue, 17 Dec 2019 20:47:03 +0100</pubDate>
+    <lastBuildDate>Tue, 17 Dec 2019 20:47:03 +0100</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -21,12 +21,14 @@
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;flex-child&quot; onclick=&quot;location.href='/posts/';&quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Once the other sections star, I’ll be able to link them too. Now I’m going to try to change the cursor when hovering on top of the divs. I think it’s as easy as:&lt;/p&gt;
+&lt;p&gt;Once the other sections start, I’ll be able to link them too. Now I’m going to try to change the cursor when hovering on top of the divs. I think it’s as easy as:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.flex-child {
 	cursor: pointer;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Yes it is!&lt;/p&gt;
 </description>
         <pubDate>Sun, 24 Nov 2019 01:00:00 +0100</pubDate>
         <link>http://localhost:4000/jekyll/update/2019/11/24/hyperlink-div.html</link>
