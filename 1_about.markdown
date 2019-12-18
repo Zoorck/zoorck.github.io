@@ -8,4 +8,4 @@ I'm Marc Serra, a *almost-self-taught* programmer. My goal is to feel comfortabl
 
 I've also been playing around with some JS basic skills, some AWS, docker, jekyll ;), HTML, CSS, SQL, php, and some other stuff that I'll be sharing right here in my blog and on my GitHub.
 
-I hope you find interesting info in my bog and guides for your personal leaning. I also expect this to be my open source lab for good inventions and also a recap of my failures. It's always useful to remember what went wrong at the beginning.
+I hope you find interesting info in my blog and guides for your personal leaning. I also expect this to be my open source lab for good inventions and also a recap of my failures. It's always useful to remember what went wrong at the beginning.
