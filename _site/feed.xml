@@ -6,9 +6,42 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Dec 2019 22:11:56 +0100</pubDate>
-    <lastBuildDate>Tue, 17 Dec 2019 22:11:56 +0100</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2020 19:20:45 +0100</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2020 19:20:45 +0100</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>New web developments in Django</title>
+        <description>&lt;p&gt;It looks like it was yesterday I just started this blog and now I’ve started a new project based in &lt;a href=&quot;www.djangoproject.com&quot;&gt;Django&lt;/a&gt;! You can check it at &lt;a href=&quot;zoorck.pythonanywhere.com&quot;&gt;zoorck.pythonanywhere.com &lt;/a&gt; with an account… which really doesn’t look like something useful for you now. Buuut, my intention here is to explain the great tool I just discovered!&lt;/p&gt;
+
+&lt;p&gt;The pythonanywhere project looks great whichever your intention on starting web development is. It includes a lot of default python tools to be able to build &lt;strong&gt;literally everything&lt;/strong&gt; you want in python and have it working on-line.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div onclick=&quot;location.href='newurl.html';&quot;&amp;gt; content &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And I made this adaption to fulfill my interests:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;flex-child&quot; onclick=&quot;location.href='/posts/';&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Once the other sections start, I’ll be able to link them too. Now I’m going to try to change the cursor when hovering on top of the divs. I think it’s as easy as:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.flex-child {
+	cursor: pointer;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Yes it is!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2020 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/jekyll/update/2020/03/06/New-year-new-project.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2020/03/06/New-year-new-project.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Hyperlinking div</title>
@@ -328,34 +361,6 @@ surprisingly I was able to remember my GitHub pass :D&lt;/p&gt;
         <pubDate>Tue, 01 Oct 2019 02:31:00 +0100</pubDate>
         <link>http://localhost:4000/jekyll/update/2019/10/01/back-to-jekyll.html</link>
         <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/10/01/back-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 24 Aug 2018 12:25:12 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/update/2018/08/24/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2018/08/24/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

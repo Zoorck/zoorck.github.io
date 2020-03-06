@@ -1,27 +1,14 @@
 ---
 layout: post
-title:  "New web developments in django"
+title:  "New web developments in Django"
 date:   2020-03-06 00:00:00 +0000
 categories: jekyll update
 ---
 
-It looks like it was yesterday I just started this blog and now I've started a new project based in Django! You can check it at zoorck.pythonanywhere.com with an account... which really doesn't look like something useful fr you now.
+It looks like it was yesterday I just started this blog and now I've started a new project based in <a href="www.djangoproject.com">Django</a>! You can check it at <a href="zoorck.pythonanywhere.com">zoorck.pythonanywhere.com </a> with an account... which really doesn't look like something useful for you now. Buuut, my intention here is to explain the great tool I just discovered!
 
-```
-<div onclick="location.href='newurl.html';"> content </div>
-```
+The pythonanywhere project looks great whichever your intention on starting web development is. It includes a lot of default python tools to be able to build <strong>literally everything</strong> you want in python and have it working on-line.
 
-And I made this adaption to fulfill my interests:
+I'll bring some more info next time, now I don't have time.
 
-```
-<div class="flex-child" onclick="location.href='{{ "/posts/" | prepend: site.baseurl }}';">
-```
-Once the other sections start, I'll be able to link them too. Now I'm going to try to change the cursor when hovering on top of the divs. I think it's as easy as:
-
-```
-.flex-child {
-	cursor: pointer;
-}
-```
-
-Yes it is!
+See you soon!
