@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kaggle and other cool stuff"
-date:   2020-05-26 00:00:00 +0000
+date:   2020-05-26 00:00:01 +0000
 categories: jekyll update
 ---
 
