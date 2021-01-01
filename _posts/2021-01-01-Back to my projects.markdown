@@ -11,9 +11,9 @@ To start, I was able to upload a full django project to pythonanywhere and it wa
 
 After that I also managed to integrate an API to a second application I built under the same app. A payments API, it was about my current work: <a href="https://easypaymentgateway.com">Easy Payment Gateway</a> on a javascript fashion. It was fun to start from a work related topic.
 
-Some time after that I discovered a great resource named <a href="https://testdriven.io/"> Test Driven </a> which ofers real world examples on how to develop certain applications. Thanks to this 3 part guide: <a href="https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/"> Dockerizing Django with Postgres, Gunicorn, and Nginx </a> I have been able to upload a full dokerized project to aws and I also took it down the same week since there was no immediate usage of it so it was a expense with no clear return.
+Some time after that I discovered a great resource named <a href="https://testdriven.io/"> Test Driven </a> which ofers real world examples on how to develop certain applications. Thanks to this 3 part guide: <a href="https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/"> Dockerizing Django with Postgres, Gunicorn, and Nginx. </a> I have been able to upload a full dokerized project to aws and I also took it down the same week since there was no immediate usage of it so it was a expense with no clear return.
 
-I was really to achieve this last result, it was a fully working website under zoorck.com domain with ssl certificate and a managed database.
+I was really happy to achieve this last result, it was a fully working website under zoorck.com domain with ssl certificate expelled by <a href="https://letsencrypt.org">let's encrypt</a> and a managed database.
 
 It has been a while since I did it and after that i focused in learning some new frontend tools, starting with an Angular course. I Just managed to start it and do the basics but it is not yet something I can easily use. I will keep some repositories with angular small projects which are part of the course.
 
